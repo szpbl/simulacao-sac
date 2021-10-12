@@ -30,6 +30,7 @@ botaoLimpar.addEventListener('click', ((e) => {
     entradaValorTotal.value = ''
     tabelaAmortizacao.textContent = ''
     tabelaTotal.textContent = ''
+    tabelaJuros.textContent = ''
     prazoMeses.value = ''
     jurosMes.value = ''
     jurosAcumulados.value = ''
@@ -79,5 +80,5 @@ function atualizarConteudo() {
     jurosAcumulados.value = jurosTotal.toFixed(2)
     tabelaAmortizacao.textContent = `R$ ${valorTotal.toLocaleString()}`
     tabelaTotal.textContent = `R$ ${totalParcelas.toLocaleString()}`
-    tabelaJuros.textContent = `R$ ${jurosTotal.toLocaleString()}`
+    tabelaJuros.textContent = `R$ ${jruos.toLocaleString()}`
 }
