@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de financiamento</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulação de financiamento por SAC</h1>
+        <p>Insira os valores abaixo e verifique a simulação de seu financiamento.</p>
+
+        <div class="inputs">
+            <form>
+                <label>Valor a ser financiado: R$<input id="valor-total" type="number" placeholder="200000" min="1"></label> 
+                <label>Prazo (em anos)<input id="prazo-anos" type="number" placeholder="20" min="1"></label> 
+                <label>Juros ao ano<input id="juros-ano"type="number" placeholder="0.8" step="0.01" min="0.001"></label> 
+                <button>Simular</button>
+            </form>
+        </div>
+
+        <div class="resultados">
+            <form>
+                <h2>Resultados: </h2>
+                <label>Prazo (em meses)<input id="prazo-meses" type="number" readonly></label> 
+                <label>Juros ao mês<input id="juros-mês" type="number" readonly></label> 
+                <label>Juros acumulados<input id="juros-acumulados"type="number" readonly></label> 
+            </form>
+        </div>
+
+        <div class="table">
+            <table id="tabela-parcelas">
+                <thead>
+                    <tr>
+                        <th>Parcela</th>
+                        <th>Amortização</th>
+                        <th>Juros</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
