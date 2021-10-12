@@ -1,0 +1,153 @@
+:root {
+    --verde-escruo: #1e4a2f;
+    --verde-claro: #659277;
+    --bg-claro: #f9f7f5;
+    --bg-esverdeado: #e1e3e2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-claro);
+    font-size: 70%;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: var(--verde-escruo);
+    line-height: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--verde-escruo);
+    line-height: 30px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+}
+
+input {
+    border: 1px solid rgba(0,0,0, .05);
+    box-shadow: 1px 1px 2px 0px rgba(0 , 0, 0, 0.5);
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: var(--verde-claro);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in 200ms;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: var(--verde-escruo);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead tr {
+    background-color: var(--verde-claro);
+    color: var(--bg-claro);
+    line-height: 48px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    border-left: 1px solid var(--verde-claro);
+}
+
+tbody tr {
+    line-height: 40px;
+}
+
+tbody tr td {
+    text-align: right;
+    border: 1px solid var(--verde-claro);
+    padding-right: 10px;
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--bg-esverdeado);
+}
+
+tfoot tr {
+    color: var(--bg-claro);
+    background-color: var(--verde-claro);
+    text-align: right;
+    line-height: 35px;
+    border-left: 1px solid var(--verde-claro);
+    font-weight: 700;
+}
+
+tfoot tr td {
+    padding-right: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+.quadro {
+    width: 700px;
+    margin: 2.5% auto;
+}
+
+.quadro-simulacao {
+    border: 2px solid var(--verde-claro);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(65, 155, 101, 0.5);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item {
+    width: 100%;
+    padding-right: 10px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.item label {
+    line-height: 20px;
+}
+
+.item input {
+    margin-bottom: 10px;
+    background-color: var(--bg-esverdeado);
+    padding: 5px;
+    color: var(--verde-escruo);
+}
+
+#limpar {
+    background-color: var(--bg-claro);
+    color: #575757;
+}
+
+#limpar:hover {
+    background-color: #f5b0b2;
+    color: #fff;
+}

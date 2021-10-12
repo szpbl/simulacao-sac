@@ -7,6 +7,10 @@ const entradaValorTotal = document.getElementById('valor-total')
 const entradaPrazoAnos = document.getElementById('prazo-anos')
 const entradaJurosAno = document.getElementById('juros-ano')
 
+const tabelaAmortizacao = document.getElementById('amortizacao')
+const tabelaTotal = document.getElementById('pagamento-total')
+const tabelaJuros = document.getElementById('juros')
+
 let prazoMeses = document.getElementById('prazo-meses')
 let jurosMes = document.getElementById('juros-mes')
 let jurosAcumulados = document.getElementById('juros-acumulados')
@@ -24,15 +28,18 @@ botaoLimpar.addEventListener('click', ((e) => {
     entradaJurosAno.value = ''
     entradaPrazoAnos.value = ''
     entradaValorTotal.value = ''
+    tabelaAmortizacao.textContent = ''
+    tabelaTotal.textContent = ''
     prazoMeses.value = ''
     jurosMes.value = ''
     jurosAcumulados.value = ''
+    
 })) 
 
 function atualizarConteudo() {
-    const valorTotal = Number(entradaValorTotal.value.toLocaleString())
+    const valorTotal = entradaValorTotal.valueAsNumber
     const prazoAnos = entradaPrazoAnos.valueAsNumber
-    const jurosAno = Number(entradaJurosAno.value.toLocaleString())
+    const jurosAno = entradaJurosAno.valueAsNumber
 
     let juros
     
@@ -44,9 +51,11 @@ function atualizarConteudo() {
     
     const amortizacao = valorTotal / prazoMeses.valueAsNumber
     let valorRestante = valorTotal
+    let totalParcelas = 0
 
     for (let i = 0; i < prazoMeses.valueAsNumber; i++) {
         juros = valorRestante * jurosMes.valueAsNumber
+        parcela = juros + amortizacao
 
         const linha = tbody.insertRow()
 
@@ -60,11 +69,15 @@ function atualizarConteudo() {
         tdJuros.textContent = juros.toFixed(2)
 
         const tdTotal = linha.insertCell()
-        tdTotal.textContent = (juros + amortizacao).toFixed(2)
+        tdTotal.textContent = parcela.toFixed(2)
    
         jurosTotal += juros
         valorRestante -= amortizacao
+        totalParcelas += parcela
     }
 
     jurosAcumulados.value = jurosTotal.toFixed(2)
+    tabelaAmortizacao.textContent = `R$ ${valorTotal.toLocaleString()}`
+    tabelaTotal.textContent = `R$ ${totalParcelas.toLocaleString()}`
+    tabelaJuros.textContent = `R$ ${jurosTotal.toLocaleString()}`
 }
