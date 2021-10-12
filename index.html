@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <title>Simulação de financiamento</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
                     <h2>Valores do financiamento:</h2>
                     <form>
                         <div class="item">
-                            <label>Valor a ser financiado<input id="valor-total" type="number" min="1"></label> 
-                            <label>Prazo (em anos)<input id="prazo-anos" type="number" min="1"></label> 
-                            <label>Juros ao ano<input id="juros-ano" type="number"  step="0.01" min="0,001"></label> 
+                            <label class="entrada">Valor a ser financiado<input id="valor-total" type="number" min="1"></label> 
+                            <label class="entrada">Prazo (em anos)<input id="prazo-anos" type="number" min="1"></label> 
+                            <label class="entrada">Juros ao ano<input id="juros-ano" type="number"  step="0.01" min="0,001"></label> 
                         </div>
                         
                         <button id="simular">Simular</button>
@@ -30,9 +31,9 @@
                     <form>
                         <h2>Resultados: </h2>
                         <div class="item">
-                            <label>Prazo (em meses)<input id="prazo-meses" type="number" readonly></label> 
-                            <label>Juros ao mês<input id="juros-mes" type="number" readonly></label> 
-                            <label>Juros acumulados<input id="juros-acumulados"type="number" readonly></label> 
+                            <label class="entrada">Prazo (em meses)<input id="prazo-meses" type="number" readonly></label> 
+                            <label class="entrada">Juros ao mês<input id="juros-mes" type="number" readonly></label> 
+                            <label class="entrada">Juros acumulados<input id="juros-acumulados"type="number" readonly></label> 
                         </div>
                         
                     </form>
