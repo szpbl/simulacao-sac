@@ -51,5 +51,5 @@ A aplicação pode ser acessada por [aqui](https://simulacao-sac-szpbl.netlify.a
 
 Feito por Pablo Souza. Entre em contato.
 
-[![Twitter Badge](https://img.shields.io/badge/-@szpbl-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/szpbl)](https://twitter.com/szpbl) [![Linkedin Badge](https://img.shields.io/badge/-Pablo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pabloosouza/)](https://www.linkedin.com/in/pabloosouza/) 
+[![Twitter Badge](https://img.shields.io/badge/-@szpbl-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/szpbl)](https://twitter.com/szpbl) [![Linkedin Badge](https://img.shields.io/badge/-Pablo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pabloosouza/)](https://www.linkedin.com/in/szpbl/) 
 [![Gmail Badge](https://img.shields.io/badge/-oliveirasouzapablo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:oliveirasouzapablo@gmail.com)
