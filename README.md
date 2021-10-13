@@ -1,8 +1,8 @@
 # Simulador de financiamento por SAC
 
-<p align="center">
+<div align="center">
     <img alt="Speed Wiz Dev" src="./assets/banner.png" />
-</p>
+</div>
 
 <h4 align="center"> 
 	🚧  Simulação - Em construção 🚧
@@ -19,21 +19,21 @@ A aplicação disponibilizada nesse repositório foi desenvolvida para o bootcam
 
 ## Link
 
-A aplicação pode ser acessada por [aqui](https://simulacao-sac-szpbl.netlify.app).
+O projeto desenvolvido pode ser acessado por [aqui](https://simulacao-sac-szpbl.netlify.app).
 
 ## Em dispositivos móveis:
 
 
-<p align="center">
+<div align="center">
   <img alt="Visualização em mobile sem valores preenchidos" src="./assets/mobile-1.jpeg" width="200px">
 
   <img alt="Visualização em mobile com valores preenchidos" src="./assets/mobile-2.jpeg" width="200px">
-</p>
+</div>
 
 ## No browser:
-<p align="center">
+<div align="center">
   <img alt="NextLevelWeek" width="400"title="#NextLevelWeek" src="./assets/web-1.png" />
-</p>
+</div>
 
 ## Tecnologias e ferramentas utilizadas
 
@@ -41,15 +41,17 @@ A aplicação pode ser acessada por [aqui](https://simulacao-sac-szpbl.netlify.a
  - CSS3
  - JavaScript
 
- 
-
 ## Autor
 ---
 
- <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQH9pvVIWVfICQ/profile-displayphoto-shrink_800_800/0/1625176479605?e=1639612800&v=beta&t=FZjWpnw5JRplOY1GdPmQ_g1o3IdYZF7lXolXTGUHeiY" width="100px;" alt=""/>
- <br />
+<img src="https://media-exp1.licdn.com/dms/image/C4D03AQH9pvVIWVfICQ/profile-displayphoto-shrink_800_800/0/1625176479605?e=1639612800&v=beta&t=FZjWpnw5JRplOY1GdPmQ_g1o3IdYZF7lXolXTGUHeiY" width="150px;" alt=""/>
+<br />
 
-Feito por Pablo Souza. Entre em contato.
+Feito por Pablo Souza.<br />
+Entre em contato:
 
-[![Twitter Badge](https://img.shields.io/badge/-@szpbl-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/szpbl)](https://twitter.com/szpbl) [![Linkedin Badge](https://img.shields.io/badge/-Pablo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pabloosouza/)](https://www.linkedin.com/in/szpbl/) 
-[![Gmail Badge](https://img.shields.io/badge/-oliveirasouzapablo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:oliveirasouzapablo@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/@szpbl-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szpbl/) 
+[![Twitter Badge](https://img.shields.io/badge/@szbpl-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/szpbl)
+[![Gmail Badge](https://img.shields.io/badge/oliveirasouzapablo@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:oliveirasouzapablo@gmail.com)
+
+
